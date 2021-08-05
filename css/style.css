@@ -259,6 +259,7 @@ strong {
 
 .card-icon {
   margin: 0 0 25px;
+  align-items: center;
 }
 
 .card-title {
@@ -1022,7 +1023,7 @@ strong {
   }
 
   .card-item {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 
   .swiper-container {
@@ -1100,6 +1101,14 @@ strong {
 
   .promo-card {
     flex-direction: column;
+  }
+
+  .card-icon {
+    margin: 0 0 10px;
+  }
+
+  .card-title{
+    margin: 0 0 10px;
   }
 
   .footer-content {
