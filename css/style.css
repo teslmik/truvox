@@ -81,7 +81,7 @@ section {
     color: #000;
   }
   .header.page-scrolled .logo {
-    background: url(../img/logo-truvox-transparent-white.png) no-repeat left top;
+    background: url(/truvox/img/logo-truvox-transparent-white.png) no-repeat left top;
     background-size: cover;
     transition: .3s all;
   }
