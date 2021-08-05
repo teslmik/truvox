@@ -390,7 +390,7 @@ strong {
   margin-bottom: 10px;
 }
 
-@media (min-width: 769px) {
+@media (any-hover: hover, min-width: 769px) {
   .item-product__actions {
     position: absolute;
     top: 100%;
