@@ -6,8 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Truvox - промислові та комерційні машини для миття підлоги</title>
 
-  <link rel="stylesheet" href="/truvox/css/normalize.css">
-  <link rel="stylesheet" href="/truvox/css/style.css">
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -15,31 +16,56 @@
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   
-  <script defer src="/truvox/js/script.js"></script>
+  <script defer src="/js/script.js"></script>
   
 </head>
 <body>
   <div class="wrapper">
     <header class="header">
-      <a href="#" class="logo" title="Truvox"></a>
+      <a href="#section-1" class="logo" title="Truvox"></a>
       <p class="diller">Офіційний диллер в Україні</p>
-      <nav class="nav">
-        <div class="menu">
-          <ul class="menu-item">
-            <li class="menu-list"><a href="" class="menu-link">Головна</a></li>
-            <li class="menu-list"><a href="" class="menu-link">Про нас</a></li>
-            <li class="menu-list"><a href="" class="menu-link">Продукція</a></li>
-            <li class="menu-list"><a href="" class="menu-link">Відгуки</a></li>
-            <li class="menu-list"><a href="" class="menu-link">Контакти</a></li>
-          </ul>
+      <div class="nav">
+        <div class="menu-icon">
+          <span></span>
         </div>
-      </nav>
+        <nav class="menu">
+          <ul class="menu-item">
+            <li class="menu-list"><a data-goto="#section-1" href="#" class="menu-link">Головна</a></li>
+            <li class="menu-list"><a data-goto="#section-2" href="#" class="menu-link">Про нас</a></li>
+            <li class="menu-list"><a data-goto="#section-3" href="#" class="menu-link">Продукція</a></li>
+            <li class="menu-list"><a data-goto="#section-4" href="#" class="menu-link">Відгуки</a></li>
+            <li class="menu-list"><a data-goto="#section-5" href="#" class="menu-link">Контакти</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <!-- /header -->
-    <main class="main">
-      <section class="slider"></section>
+    <main class="main" id="section-1">
+      <section class="slider">
+        <div class="slider-swiper-container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img src="/img/slider/multiwash-header-ukr.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="/img/slider/cimex-header-ukr.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="/img/slider/orbis-eco-header-ukr.jpg" alt="">
+            </div>
+            
+          </div>
+          
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+        </div>
+      </section>
       <!-- /slider -->
-      <section class="company">
+      <section class="company" id="section-2">
           <h2 class="title">Про компанію</h2>
           <p class="company-line"></p>
           <p class="company-text"><strong>Truvox International</strong>&nbsp;&mdash; провідний постачальник комерційних і&nbsp;промислових машин для обслуговування підлог. 
@@ -56,17 +82,17 @@
           </div>
           <div class="promo-card">
             <div class="card-item">
-              <div class="card-icon"><img class="card-img" src="/truvox/img/clipboard.svg" alt=""></div>
+              <div class="card-icon"><img class="card-img" src="/img/clipboard.svg" alt=""></div>
               <div class="card-title">Багатозадачність</div>
               <div class="card-text">Підмітає, миє, очищає і&nbsp;сушить за&nbsp;один прохід. Призначено для будь-яких видів підлог</div>
             </div>
             <div class="card-item">
-              <div class="card-icon"><img class="card-img" src="/truvox/img/quiet.svg" alt=""></div>
+              <div class="card-icon"><img class="card-img" src="/img/quiet.svg" alt=""></div>
               <div class="card-title">Безшумна робота</div>
               <div class="card-text">Ідеально підходить для робіт, коли клієнти, покупці або пацієнти знаходяться в&nbsp;приміщенні</div>
             </div>
             <div class="card-item">
-              <div class="card-icon"><img class="card-img" src="/truvox/img/full.svg" alt=""></div>
+              <div class="card-icon"><img class="card-img" src="/img/full.svg" alt=""></div>
               <div class="card-title">Автономність</div>
               <div class="card-text">50&nbsp;хвилин безперервної роботи акумулятора, система швидкої зміни акумуляторів, зовнішний зарядний пристрій</div>
             </div>
@@ -76,7 +102,7 @@
           </button>
       </section>
       <!-- /promo1 -->
-      <section class="products">
+      <section class="products" id="section-3">
         <h2 class="title">Наша продукція</h2>
         <div class="products-items">
           <article class="products-item">
@@ -84,7 +110,7 @@
               <div class="item-product__label">Новинка</div>
             </div>
             <a href="" class="item-product__image">
-              <img src="/truvox/img/products/MW240-1.png" alt="">
+              <img src="/img/products/MW340-PUMP-battery.png" alt="">
             </a>
             <div class="item-product__body">
               <div class="item-product__content">
@@ -105,7 +131,7 @@
               <div class="item-product__label">Новинка</div>
             </div>
             <a href="" class="item-product__image">
-              <img src="/truvox/img/products/MW240-1.png" alt="">
+              <img src="/img/products/MW240-1.png" alt="">
             </a>
             <div class="item-product__body">
               <div class="item-product__content">
@@ -126,7 +152,7 @@
               <div class="item-product__label">Новинка</div>
             </div>
             <a href="" class="item-product__image">
-              <img src="/truvox/img/products/MW240-1.png" alt="">
+              <img src="/img/products/MW240-1.png" alt="">
             </a>
             <div class="item-product__body">
               <div class="item-product__content">
@@ -147,7 +173,7 @@
               <div class="item-product__label">Новинка</div>
             </div>
             <a href="" class="item-product__image">
-              <img src="/truvox/img/products/MW240-1.png" alt="">
+              <img src="/img/products/MW240-1.png" alt="">
             </a>
             <div class="item-product__body">
               <div class="item-product__content">
@@ -168,7 +194,7 @@
               <div class="item-product__label">Новинка</div>
             </div>
             <a href="" class="item-product__image">
-              <img src="/truvox/img/products/MW240-1.png" alt="">
+              <img src="/img/products/MW240-1.png" alt="">
             </a>
             <div class="item-product__body">
               <div class="item-product__content">
@@ -189,7 +215,7 @@
               <div class="item-product__label">Новинка</div>
             </div>
             <a href="" class="item-product__image">
-              <img src="/truvox/img/products/MW240-1.png" alt="">
+              <img src="/img/products/MW240-1.png" alt="">
             </a>
             <div class="item-product__body">
               <div class="item-product__content">
@@ -210,7 +236,7 @@
               <div class="item-product__label">Новинка</div>
             </div>
             <a href="" class="item-product__image">
-              <img src="/truvox/img/products/MW240-1.png" alt="">
+              <img src="/img/products/MW240-1.png" alt="">
             </a>
             <div class="item-product__body">
               <div class="item-product__content">
@@ -231,7 +257,7 @@
               <div class="item-product__label">Новинка</div>
             </div>
             <a href="" class="item-product__image">
-              <img src="/truvox/img/products/MW240-1.png" alt="">
+              <img src="/img/products/MW240-1.png" alt="">
             </a>
             <div class="item-product__body">
               <div class="item-product__content">
@@ -266,12 +292,12 @@
             </button>
           </div>
           <div class="howitswork-img">
-            <img src="/truvox/img/rolls.jpg" alt="" class="img-howitswork">
+            <img src="/img/rolls.jpg" alt="" class="img-howitswork">
           </div>
         </div> -->
       </section>
       <!-- /products -->
-      <section class="feedback">
+      <section class="feedback" id="section-4">
         <h2 class="feedback-title title">Відгуки клієктів</h2>
         <div class="feedback-slider">
           <!-- Slider main container -->
@@ -279,9 +305,49 @@
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
               <!-- Slides -->
-              <div class="swiper-slide">Slide 1</div>
-              <div class="swiper-slide">Slide 2</div>
-              <div class="swiper-slide">Slide 3</div>
+              <div class="swiper-slide">
+                <div class="slide-feedback">
+                  <div class="feedback-content">
+                    <div class="feedback-img">
+                      <img src="/img/feedback/1.jpg" alt="">
+                    </div>
+                    <div class="feedback-text">"Ми дуже задоволені Multiwash. На сьогоднішній день наш салон забезпечує ідеальне середовище для кращих автомобілів світу ".</div>
+                  </div>
+                  <div class="feedback-deskription">
+                    <div class="deskription-name">Брайан Діксон</div>
+                    <div class="deskription-position">Автосалон Rolls-Royce в Единбурзі</div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-feedback">
+                  <div class="feedback-content">
+                    <div class="feedback-img">
+                      <img src="/img/feedback/2.jpg" alt="">
+                    </div>
+                    <div class="feedback-text">"Ми випробували дуже багато альтернативних контро-ротаційних машин, але, на жаль, в експлуатації вони виявилися не такими простими і ефективними, як Multiwash. Для тих послуг. які ми надаємо, Multiwash - найбільш комфортна в управлінні, проста в обслуговуванні, економічна і універсальна машина ".</div>
+                  </div>
+                  <div class="feedback-deskription">
+                    <div class="deskription-name">Кріс Райан</div>
+                    <div class="deskription-position">Менеджер девелоперської групи "Клінінгові послуги для міської ради Staffordshire"</div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-feedback">
+                  <div class="feedback-content">
+                    <div class="feedback-img">
+                      <img src="/img/feedback/3.jpg" alt="">
+                    </div>
+                    <div class="feedback-text">"Спочатку ми купили Multiwash 340 для обслуговування банкетного залу, але незабаром ми зрозуміли, що
+                      її універсальність дозволить нам швидко, легко і ефективно очистити безліч інших твердих підлог, наприклад зону бару. Тепер у нас з'явилася можливість скоротити витрати на обслуговування, так як, завдяки високим стандартам якості обслуговування Multiwash, немає необхідності часто шліфувати дерев'яні підлоги ".</div>
+                  </div>
+                  <div class="feedback-deskription">
+                    <div class="deskription-name">Він Джонс</div>
+                    <div class="deskription-position">Почесний секретар Trojans Club, Саутгемптон</div>
+                  </div>
+                </div>
+              </div>
             </div>
             <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
@@ -297,20 +363,22 @@
       <!-- /feedback -->
     </main>
 
-    <footer class="footer">
+    <footer class="footer" id="section-5">
       <div class="footer-content">
         <nav class="menu-footer">
           <ul class="menu-footer-item">
-            <li class="menu-footer-list"><a href="" class="menu-link">Головна</a></li>
-            <li class="menu-footer-list"><a href="" class="menu-link">Про нас</a></li>
-            <li class="menu-footer-list"><a href="" class="menu-link">Продукція</a></li>
-            <li class="menu-footer-list"><a href="" class="menu-link">Відгуки</a></li>
-            <li class="menu-footer-list"><a href="" class="menu-link">Контакти</a></li>
+            <li class="menu-footer-list"><a data-goto="#section-1" href="#" class="menu-link">Головна</a></li>
+            <li class="menu-footer-list"><a data-goto="#section-2" href="#" class="menu-link">Про нас</a></li>
+            <li class="menu-footer-list"><a data-goto="#section-3" href="#" class="menu-link">Продукція</a></li>
+            <li class="menu-footer-list"><a data-goto="#section-4" href="#" class="menu-link">Відгуки</a></li>
+            <li class="menu-footer-list"><a data-goto="#section-5" href="#" class="menu-link">Контакти</a></li>
           </ul>
         </nav>
-        <button type="button" class="button-popup">
-          <div class="buttontext">Замовити презентацію</div>
-        </button>
+        <div class="footer-btn">
+          <button type="button" class="button-popup">
+            <div class="buttontext">Замовити презентацію</div>
+          </button>
+        </div>
         <div class="contacts-footer">
           <a href="viber://chat?number=%2B380661416662">
             <i class="fab fa-viber"></i>
@@ -329,9 +397,9 @@
       <div class="footer-copiryte">
         <div class="copiryte">© 2021 Truvox International </div>
         <div class="social">
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-facebook-square"></i>
-          <i class="fab fa-telegram-plane"></i>
+          <a href="https://www.instagram.com/truvox_ukraine/" target="_blanck"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook-square"></i></a>
+          <a href="#"><i class="fab fa-telegram-plane"></i></a>
         </div>
         <div class="up">На початок
           <div class="arrow-top">
