@@ -81,7 +81,7 @@ section {
     color: #000;
   }
   .header.page-scrolled .logo {
-    background: url(/truvox/img/logo-truvox-transparent-white.png) no-repeat left top;
+    background: url(../img/logo-truvox-transparent-white.png) no-repeat left top;
     background-size: cover;
     transition: .3s all;
   }
@@ -1077,7 +1077,25 @@ strong {
   }
 
   .swiper-container {
-    max-width: 320px;
+    max-width: 310px;
+  }
+
+  .feedback-img {
+    max-width: 60px;
+    max-height: 60px;
+  }
+
+  .slide-feedback{
+    padding: 10px;
+  }
+
+  .feedback-text {
+    margin: 0 0 0 10px;
+    line-height: 120%;
+  }
+
+  .deskription-name {
+    font-size: 14px;
   }
 
   .promo-card {
