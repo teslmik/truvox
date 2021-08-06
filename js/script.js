@@ -10,7 +10,6 @@ window.addEventListener("scroll", function () {
   }
   scrollTop = 0;
 });
-  //-------------------------------------------------------Menu Scrolled End--------------------
 
   //----------------------Slider Main---------------------
 if (document.querySelector('.slider-swiper-container')){
@@ -35,9 +34,6 @@ if (document.querySelector('.slider-swiper-container')){
 
   });
 }
-  
-  //----------------------Slider Main End---------------------
-
 
   //----------------------Slider Feedback---------------------
 if (document.querySelector('.swiper-container')) {
@@ -70,22 +66,6 @@ if (document.querySelector('.swiper-container')) {
 
   });
 }
-  //----------------------Slider Feedback End---------------------
-
-  //-------------------------------IBG IMG--------------------
-function ibg(){
-
-  let ibg = document.querySelectorAll(".ibg");
-  for (var i = 0; i < ibg.length; i++) {
-    if(ibg[i].querySelector('img')){
-      ibg[i].style.backgroundImage = 'url('+ibg[i].querySelector('img').getAttribute('src')+')';
-    }
-  }
-}
-
-ibg();
-
-// -----------------------IBG END-----------------------
 
 // --------------------Scroll smooth--------------------
 const menuLinks = document.querySelectorAll('.menu-link[data-goto]');
@@ -125,3 +105,6 @@ if (iconMenu) {
     menuBody.classList.toggle('_active');
   });
 }
+
+
+
