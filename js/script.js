@@ -12,13 +12,11 @@ window.addEventListener("scroll", function () {
 });
 
   //----------------------Slider Main---------------------
-if (document.querySelector('.slider-swiper-container')){
-  new Swiper('.slider-swiper-container', {
-    // Optional parameters
+if (document.querySelector('.slider-container')){
+  new Swiper('.slider-container', {
     direction: 'horizontal',
     loop: true,
 
-    // Navigation arrows
     navigation: {
       nextEl: '.slider .swiper-button-next',
       prevEl: '.slider .swiper-button-prev',
@@ -36,21 +34,12 @@ if (document.querySelector('.slider-swiper-container')){
 }
 
   //----------------------Slider Feedback---------------------
-if (document.querySelector('.swiper-container')) {
+if (document.querySelector('.feedback-slider__container')) {
 
-  new Swiper('.swiper-container', {
-    // Optional parameters
+  new Swiper('.feedback-slider__container', {
     direction: 'horizontal',
     loop: true,
 
-    // If we need pagination
-    pagination: {
-      el: '.feedback .swiper-pagination',
-      clickable: true,
-      dynamicBullets: true,
-    },
-
-    // Navigation arrows
     navigation: {
       nextEl: '.feedback .swiper-button-next',
       prevEl: '.feedback .swiper-button-prev',
@@ -67,18 +56,21 @@ if (document.querySelector('.swiper-container')) {
   });
 }
 
+
+
 // --------------------Scroll smooth--------------------
 const menuLinks = document.querySelectorAll('.menu-link[data-goto]');
 if (menuLinks.length > 0) {
   menuLinks.forEach(menuLink => {
     menuLink.addEventListener('click', onMenuLinkClick);
   });
+  console.log(menuLinks);
 
   function onMenuLinkClick(e) {
     const menuLink = e.target;
     if (menuLink.dataset.goto && document.querySelector(menuLink.dataset.goto)) {
       const gotoBlock = document.querySelector(menuLink.dataset.goto);
-      const gotoBlockValue = gotoBlock.getBoundingClientRect().top + pageYOffset - document.querySelector('header').offsetHeight;
+      const gotoBlockValue = gotoBlock.getBoundingClientRect().top + pageYOffset - document.querySelector('.header').offsetHeight;
       
       if (iconMenu.classList.contains('_active')) {
         document.body.classList.remove('_lock');
