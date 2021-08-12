@@ -124,7 +124,7 @@ if (document.querySelector('.popup-slider__container')) {
     el.addEventListener('click', (e) => {
       const index = parseInt(e.currentTarget.dataset.index);
 
-      mySwiper.slideTo(index);
+      mySwiper.slideTo(index+1);
     });
   })
 
