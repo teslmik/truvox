@@ -12,14 +12,14 @@ window.addEventListener("scroll", function () {
 });
 
   //----------------------Slider Main---------------------
-if (document.querySelector('.slider-container')){
+if (document.querySelector('.slider-container')) {
   new Swiper('.slider-container', {
     direction: 'horizontal',
     loop: true,
 
     navigation: {
-      nextEl: '.slider .swiper-button-next',
-      prevEl: '.slider .swiper-button-prev',
+      nextEl: '.slider-swiper-button-next',
+      prevEl: '.slider-swiper-button-prev',
     },
 
     slidesPerView: 1,
@@ -40,10 +40,12 @@ if (document.querySelector('.feedback-slider__container')) {
     direction: 'horizontal',
     loop: true,
 
-    navigation: {
-      nextEl: '.feedback .swiper-button-next',
-      prevEl: '.feedback .swiper-button-prev',
-    },
+    // navigation: {
+    //   nextEl: '.feedback-swiper-button-next',
+    //   prevEl: '.feedback-swiper-button-prev',
+    // },
+
+    slidesPerView: 1,
 
     spaceBetween: 50,
 
@@ -51,7 +53,7 @@ if (document.querySelector('.feedback-slider__container')) {
       delay: 5000,
       stopOnLastSlide: false,
       disableOnInteraction: false,
-    }
+    },
 
   });
 }
