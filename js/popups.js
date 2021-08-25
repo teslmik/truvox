@@ -5,7 +5,7 @@ const lockPadding = document.querySelectorAll('.lock-padding');
 
 let unlock = true;
 
-const timeout = 300;
+const timeout = 700;
 
 if (popupLinks.length > 0) {
   for (let index = 0; index < popupLinks.length; index++) {
@@ -51,6 +51,7 @@ function popupClose(popupActive, doUnlock = true) {
     if (doUnlock) {
       bodyUnlock();
     }
+    
   }
 }
 
@@ -82,19 +83,80 @@ function bodyUnlock() {
         const el = lockPadding[index];
           el.style.paddingRight = '0px';
           setTimeout(function () {
-            el.style.transition = '';
+            // el.style.transition = '';
           }, timeout);
       }
     }
     body.style.paddingRight = '0px';
     body.classList.remove('_lock');
-  }, timeout);
+  });
 
   unlock = false;
   setTimeout(function () {
     unlock = true;
   }, timeout);
 }
+
+// (function () {
+//   //проверяем поддержку
+//   if (!Element.prototype.closest) {
+//     //руализуем
+//     Element.prototype.closest = function (css) {
+//       var node = this;
+//       while (node) {
+//         if (node.matches(css)) return node;
+//         else node = node.parentsElement;
+//       }
+//       return null;
+//     };
+//   }
+// })();
+// (function () {
+//   //проверяем поддержку
+//   if (!Element.prototype.matches) {
+//     //определяем свойство
+//     Element.prototype.matches =
+//       Element.prototype.matchesSelector ||
+//       Element.prototype.webkitMatchesSelector ||
+//       Element.prototype.mozMatchesSelector ||
+//       Element.prototype.msMatchesSelector;
+//   }
+// })();
+
+// ------------------Работа с отправкай формы
+
+$(document).ready(function () {
+  $("#form").submit(function () {
+    // проверка на пустоту заполненных полей. Атрибут html5 — required не подходит (не поддерживается Safari)
+    if (document.form.phone.value == "") {
+      valid = false;
+      return valid;
+    }
+    $.ajax({
+      type: "POST",
+      url: "./php/telegram.php",
+      data: $(this).serialize(),
+    }).done(function () {
+      $(".modal").removeClass("open");
+      $(".modal-success").addClass("open");
+      $(this).find("input").val("");
+      $("#form").trigger("reset");
+    });
+    return false;
+  });
+});
+
+// Закрыть попап «спасибо»
+
+$(document).mouseup(function (e) {
+  // по клику вне попапа
+  var popup = $(".modal__body");
+  if (e.target != popup[0] && popup.has(e.target).length === 0) {
+    $(".modal-success").removeClass("open");
+    $("body").removeClass("_lock");
+    $("body").removeAttr("style");
+  }
+});
 
   //----------------------Slider Popups---------------------
 if (document.querySelector('.popup-slider__container')) {
@@ -124,9 +186,9 @@ if (document.querySelector('.popup-slider__container')) {
     el.addEventListener('click', (e) => {
       const index = parseInt(e.currentTarget.dataset.index);
 
-      mySwiper.slideTo(index+1);
+      mySwiper.slideTo(index);
     });
-  })
+  });
 
 }
 

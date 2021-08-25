@@ -4,27 +4,30 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Truvox - промислові та комерційні машини для миття підлоги</title>
+  <title>Truwash - промислові та комерційні машини для миття підлоги</title>
 
-  <link rel="shortcut icon" href="/truvox/img/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="/truvox/css/normalize.css">
-  <link rel="stylesheet" href="/truvox/css/popups.css">
-  <link rel="stylesheet" href="/truvox/css/style.css">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/modal.css">
+  <link rel="stylesheet" href="/css/popups.css">
+  <link rel="stylesheet" href="/css/style.css">
 
-  
-  <script defer src="/truvox/js/script.js"></script>
+  <script defer src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script defer src="/js/popups.js"></script>
+  <script defer src="/js/script.js"></script>
   
 </head>
 <body>
   <div class="wrapper">
     <header class="header lock-padding">
       <a href="/index.html" class="logo" title="Truvox"></a>
-      <p class="diller">Офіційний диллер в Україні</p>
+      <p class="diller">Офіційний диллер Truvox в Україні</p>
       <div class="nav">
         <div class="menu-icon">
           <span></span>
@@ -47,13 +50,13 @@
           <div class="slider-wrapper swiper-wrapper">
             
             <div class="slider-slide swiper-slide">
-              <img src="/truvox/img/slider/multiwash-header-ukr.jpg" alt="">
+              <img src="/img/slider/multiwash-header-ukr.jpg" alt="">
             </div>
             <div class="slider-slide swiper-slide">
-              <img src="/truvox/img/slider/cimex-header-ukr.jpg" alt="">
+              <img src="/img/slider/cimex-header-ukr.jpg" alt="">
             </div>
             <div class="slider-slide swiper-slide">
-              <img src="/truvox/img/slider/orbis-eco-header-ukr.jpg" alt="">
+              <img src="/img/slider/orbis-eco-header-ukr.jpg" alt="">
             </div>
             
           </div>
@@ -81,24 +84,24 @@
           </div>
           <div class="promo-card">
             <div class="card-item">
-              <div class="card-icon"><img class="card-img" src="/truvox/img/clipboard.svg" alt=""></div>
+              <div class="card-icon"><img class="card-img" src="/img/clipboard.svg" alt=""></div>
               <div class="card-title">Багатозадачність</div>
               <div class="card-text">Підмітає, миє, очищає і&nbsp;сушить за&nbsp;один прохід. Призначено для будь-яких видів підлог</div>
             </div>
             <div class="card-item">
-              <div class="card-icon"><img class="card-img" src="/truvox/img/quiet.svg" alt=""></div>
+              <div class="card-icon"><img class="card-img" src="/img/quiet.svg" alt=""></div>
               <div class="card-title">Безшумна робота</div>
               <div class="card-text">Ідеально підходить для робіт, коли клієнти, покупці або пацієнти знаходяться в&nbsp;приміщенні</div>
             </div>
             <div class="card-item">
-              <div class="card-icon"><img class="card-img" src="/truvox/img/full.svg" alt=""></div>
+              <div class="card-icon"><img class="card-img" src="/img/full.svg" alt=""></div>
               <div class="card-title">Автономність</div>
               <div class="card-text">50&nbsp;хвилин безперервної роботи від акумулятора, система швидкої зміни акумуляторів, зовнішний зарядний пристрій</div>
             </div>
           </div>
-          <button type="button" class="button-popup">
+          <a href="#popup" type="button" class="button-popup popup-link">
             <div class="buttontext">Зв'яжіться з нами</div>
-          </button>
+          </a>
       </section>
       <!-- /promo1 -->
       <section class="products" id="section-3">
@@ -106,20 +109,21 @@
         <div class="products-items">
           <article data-pid="1" class="products-item">
             <div class="item-product__labels">
-              <div class="item-product__label">Новинка</div>
+              <div class="actions-product__existence">в наявності <i class="fas fa-check"></i></div>
+              <!-- <div class="item-product__label">Новинка</div> -->
             </div>
-            <a href="#popup" class="item-product__image popup-link">
-              <img src="/truvox/img/products/MW340.png" alt="Multiwash 240/340">
+            <a href="#popup-1" class="item-product__image popup-link">
+              <img src="/img/products/MW340.png" alt="Multiwash 240/340">
             </a>
             <div class="item-product__body">
               <div class="item-product__content">
-                <h5 class="item-product__title">Multiwash<sup><small>TM</small></sup>II 240/340</h5>
+                <h3 class="item-product__title">Multiwash<sup><small>TM</small></sup>II 240/340</h3>
                 <div class="item-product__price"></div>
               </div>
             </div>
             <div class="item-product__actions actions-product">
               <div class="actions-product__body">
-                <div class="actions-product__existence">в наявності <i class="fas fa-check"></i></div>
+                
                 <div class="actions-product__text">
                   Основні характеристики:
                   <ul class="actions-list">
@@ -130,26 +134,27 @@
                     <li>Гаратнія 12&nbsp;місяців</li>
                   </ul>
                 </div>
-                <a href="#popup" class="actions-product__btn popup-link">Детальніше</a>
+                <a href="#popup-1" class="actions-product__btn popup-link">Детальніше</a>
               </div>
             </div>
           </article>
-          <article class="products-item">
+          <article data-pid="2" class="products-item">
             <div class="item-product__labels">
-              <div class="item-product__label">Новинка</div>
+              <div class="actions-product__existence">в наявності <i class="fas fa-check"></i></div>
+              <!-- <div class="item-product__label">Новинка</div> -->
             </div>
-            <a href="#popup" class="item-product__image popup-link">
-              <img src="/truvox/img/products/MW440-PUMP.png" alt="">
+            <a href="#popup-2" class="item-product__image popup-link">
+              <img src="/img/products/MW440-PUMP.png" alt="">
             </a>
             <div class="item-product__body">
               <div class="item-product__content">
-                <h5 class="item-product__title">Multiwash<sup><small>TM</small></sup>II <br>240/340/440-PUMP</h5>
+                <h3 class="item-product__title">Multiwash<sup><small>TM</small></sup>II <br>240/340/440-PUMP</h3>
                 <div class="item-product__price"></div>
               </div>
             </div>
             <div class="item-product__actions actions-product">
               <div class="actions-product__body">
-                <div class="actions-product__existence">в наявності <i class="fas fa-check"></i></div>
+                
                 <div class="actions-product__text">
                   Основні характеристики:
                   <ul class="actions-list">
@@ -160,26 +165,27 @@
                     <li>Гаратнія 12&nbsp;місяців</li>
                   </ul>
                 </div>
-                <a href="#popup" class="actions-product__btn popup-link">Детальніше</a>
+                <a href="#popup-2" class="actions-product__btn popup-link">Детальніше</a>
               </div>
             </div>
           </article>
-          <article class="products-item">
+          <article data-pid="3" class="products-item">
             <div class="item-product__labels">
+              <div class="actions-product__existence">в наявності <i class="fas fa-check"></i></div>
               <div class="item-product__label">Новинка</div>
             </div>
-            <a href="#popup" class="item-product__image popup-link">
-              <img src="/truvox/img/products/MW340-PUMP-battery.png" alt="">
+            <a href="#popup-3" class="item-product__image popup-link">
+              <img src="/img/products/MW340-PUMP-battery.png" alt="">
             </a>
             <div class="item-product__body">
               <div class="item-product__content">
-                <h5 class="item-product__title">Multiwash<sup><small>TM</small></sup>II <br>340-PUMP-Battery</h5>
+                <h3 class="item-product__title">Multiwash<sup><small>TM</small></sup>II <br>340-PUMP-Battery</h3>
                 <div class="item-product__price"></div>
               </div>
             </div>
             <div class="item-product__actions actions-product">
               <div class="actions-product__body">
-                <div class="actions-product__existence">в наявності <i class="fas fa-check"></i></div>
+                
                 <div class="actions-product__text">
                   Основні характеристики:
                   <ul class="actions-list">
@@ -192,20 +198,20 @@
                     <li>Гаратнія 12&nbsp;місяців</li>
                   </ul>
                 </div>
-                <a href="#popup" class="actions-product__btn popup-link">Детальніше</a>
+                <a href="#popup-3" class="actions-product__btn popup-link">Детальніше</a>
               </div>
             </div>
           </article>
-          <article class="products-item">
+          <!-- <article class="products-item">
             <div class="item-product__labels">
               <div class="item-product__label">Новинка</div>
             </div>
-            <a href="#popup" class="item-product__image popup-link">
-              <img src="/truvox/img/products/Orbis-200.png" alt="">
+            <a href="#popup-4" class="item-product__image popup-link">
+              <img src="/img/products/Orbis-200.png" alt="">
             </a>
             <div class="item-product__body">
               <div class="item-product__content">
-                <h5 class="item-product__title">ORBIS</h5>
+                <h3 class="item-product__title">ORBIS</h3>
                 <div class="item-product__price"></div>
               </div>
             </div>
@@ -224,7 +230,7 @@
                     <li>Гаратнія 1 рік</li>
                   </ul>
                 </div>
-                <a href="#popup" class="actions-product__btn popup-link">Детальніше</a>
+                <a href="#popup-4" class="actions-product__btn popup-link">Детальніше</a>
               </div>
             </div>
           </article>
@@ -232,12 +238,12 @@
             <div class="item-product__labels">
               <div class="item-product__label">Новинка</div>
             </div>
-            <a href="#popup" class="item-product__image popup-link">
-              <img src="/truvox/img/products/Truvox_Orbis_Eco.png" alt="">
+            <a href="#popup-5" class="item-product__image popup-link">
+              <img src="/img/products/Truvox_Orbis_Eco.png" alt="">
             </a>
             <div class="item-product__body">
               <div class="item-product__content">
-                <h5 class="item-product__title">ORBIS ECO</h5>
+                <h3 class="item-product__title">ORBIS ECO</h3>
                 <div class="item-product__price"></div>
               </div>
             </div>
@@ -256,7 +262,7 @@
                     <li>Гаратнія 1 рік</li>
                   </ul>
                 </div>
-                <a href="#popup" class="actions-product__btn popup-link">Детальніше</a>
+                <a href="#popup-5" class="actions-product__btn popup-link">Детальніше</a>
               </div>
             </div>
           </article>
@@ -264,12 +270,12 @@
             <div class="item-product__labels">
               <div class="item-product__label">Новинка</div>
             </div>
-            <a href="#popup" class="item-product__image popup-link">
-              <img src="/truvox/img/products/ORBIS UHS 1500 FH.png" alt="">
+            <a href="#popup-6" class="item-product__image popup-link">
+              <img src="/img/products/ORBIS UHS 1500 FH.png" alt="">
             </a>
             <div class="item-product__body">
               <div class="item-product__content">
-                <h5 class="item-product__title">ORBIS UHS 1500 FH</h5>
+                <h3 class="item-product__title">ORBIS UHS 1500 FH</h3>
                 <div class="item-product__price"></div>
               </div>
             </div>
@@ -288,7 +294,7 @@
                     <li>Гаратнія 1 рік</li>
                   </ul>
                 </div>
-                <a href="#popup" class="actions-product__btn popup-link">Детальніше</a>
+                <a href="#popup-6" class="actions-product__btn popup-link">Детальніше</a>
               </div>
             </div>
           </article>
@@ -296,12 +302,12 @@
             <div class="item-product__labels">
               <div class="item-product__label">Новинка</div>
             </div>
-            <a href="#popup" class="item-product__image popup-link">
-              <img src="/truvox/img/products/ORBIS UHS CORDLESS BURNISHER.png" alt="">
+            <a href="#popup-7" class="item-product__image popup-link">
+              <img src="/img/products/ORBIS UHS CORDLESS BURNISHER.png" alt="">
             </a>
             <div class="item-product__body">
               <div class="item-product__content">
-                <h5 class="item-product__title">ORBIS UHS CORDLESS BURNISHER</h5>
+                <h3 class="item-product__title">ORBIS UHS CORDLESS BURNISHER</h3>
                 <div class="item-product__price"></div>
               </div>
             </div>
@@ -320,7 +326,7 @@
                     <li>Гаратнія 1 рік</li>
                   </ul>
                 </div>
-                <a href="#popup" class="actions-product__btn popup-link">Детальніше</a>
+                <a href="#popup-7" class="actions-product__btn popup-link">Детальніше</a>
               </div>
             </div>
           </article>
@@ -328,12 +334,12 @@
             <div class="item-product__labels">
               <div class="item-product__label">Новинка</div>
             </div>
-            <a href="#popup" class="item-product__image popup-link">
-              <img src="/truvox/img/products/ORBIS Orbital 1500.png" alt="">
+            <a href="#popup-8" class="item-product__image popup-link">
+              <img src="/img/products/ORBIS Orbital 1500.png" alt="">
             </a>
             <div class="item-product__body">
               <div class="item-product__content">
-                <h5 class="item-product__title">ORBIS Orbital 1500</h5>
+                <h3 class="item-product__title">ORBIS Orbital 1500</h3>
                 <div class="item-product__price"></div>
               </div>
             </div>
@@ -352,32 +358,11 @@
                     <li>Гаратнія 1 рік</li>
                   </ul>
                 </div>
-                <a href="#popup" class="actions-product__btn popup-link">Детальніше</a>
+                <a href="#popup-8" class="actions-product__btn popup-link">Детальніше</a>
               </div>
             </div>
-          </article>
+          </article> -->
         </div>
-        
-        <!-- <div class="howitswork">
-          <div class="howitswork-content">
-            <div class="howitswork-content-title">Як це працює?</div>
-            <div class="howitswork-content-text">У&nbsp;<strong>Multiwash 240&nbsp;і 340</strong> розчин подається на&nbsp;щітку. 
-              У&nbsp;<strong>Multiwash 340&nbsp;/ PUMP і&nbsp;440&nbsp;/ PUMP</strong> подача розчину на&nbsp;підлогу здійснюється за&nbsp;рахунок вбудованої помпи.<br><br>
-
-              Щітки, обертаючись контро-ротаційно (назустріч один одному), очищають підлогу і&nbsp;направляють використаний брудний розчин в&nbsp;бак. 
-              У&nbsp;машині немає вакуумного мотора, що&nbsp;полегшує конструкцію і&nbsp;робить її&nbsp;довговічною. 
-              Передня щітка робить велику частину роботи&nbsp;&mdash; чистить і&nbsp;сушить. 
-              Задня щітка завершує процес чищення і&nbsp;збирає з&nbsp;підлоги воду, що&nbsp;залишилася. 
-              Скребок збирає воду з&nbsp;барабана і&nbsp;відправляє її&nbsp;в&nbsp;бак для брудної води. Тепер підлога чиста і&nbsp;суха.
-            </div>
-            <button type="button" class="button-popup">
-              <div class="buttontext">Зробити замовлення</div>
-            </button>
-          </div>
-          <div class="howitswork-img">
-            <img src="/truvox/img/rolls.jpg" alt="" class="img-howitswork">
-          </div>
-        </div> -->
       </section>
       <!-- /products -->
       <section class="feedback" id="section-4">
@@ -390,7 +375,7 @@
                   <div class="slide-feedback">
                     <div class="feedback-content">
                       <div class="feedback-img">
-                        <img src="/truvox/img/feedback/1.jpg" alt="">
+                        <img src="/img/feedback/1.jpg" alt="">
                       </div>
                       <div class="feedback-text">"Ми дуже задоволені Multiwash. На сьогоднішній день наш салон забезпечує ідеальне середовище для кращих автомобілів світу ".</div>
                     </div>
@@ -404,7 +389,7 @@
                   <div class="slide-feedback">
                     <div class="feedback-content">
                       <div class="feedback-img">
-                        <img src="/truvox/img/feedback/2.jpg" alt="">
+                        <img src="/img/feedback/2.jpg" alt="">
                       </div>
                       <div class="feedback-text">"Ми випробували дуже багато альтернативних контро-ротаційних машин, але, на жаль, в експлуатації вони виявилися не такими простими і ефективними, як Multiwash. Для тих послуг. які ми надаємо, Multiwash - найбільш комфортна в управлінні, проста в обслуговуванні, економічна і універсальна машина ".</div>
                     </div>
@@ -418,7 +403,7 @@
                   <div class="slide-feedback">
                     <div class="feedback-content">
                       <div class="feedback-img">
-                        <img src="/truvox/img/feedback/3.jpg" alt="">
+                        <img src="/img/feedback/3.jpg" alt="">
                       </div>
                       <div class="feedback-text">"Спочатку ми купили Multiwash 340 для обслуговування банкетного залу, але незабаром ми зрозуміли, що
                         її універсальність дозволить нам швидко, легко і ефективно очистити безліч інших твердих підлог, наприклад зону бару. Тепер у нас з'явилася можливість скоротити витрати на обслуговування, так як, завдяки високим стандартам якості обслуговування Multiwash, немає необхідності часто шліфувати дерев'яні підлоги ".</div>
@@ -451,9 +436,9 @@
           </ul>
         </nav>
         <div class="footer-btn">
-          <button type="button" class="button-popup">
+          <a href="#popup" type="button" class="button-popup popup-link">
             <div class="buttontext">Замовити презентацію</div>
-          </button>
+          </a>
         </div>
         <div class="contacts-footer">
           <a href="viber://chat?number=%2B380661416662">
@@ -464,14 +449,14 @@
             <i class="fas fa-phone"></i>
             +38-097-094-8777 
           </a><br>
-          <a href="mailto:truvox.ukraine@gmail.com">
+          <a href="mailto:truwash.ukraine@gmail.com">
             <i class="fas fa-envelope"></i>
-            truvox.ukraine@gmail.com
+            truwash.ukraine@gmail.com
           </a>
         </div>
       </div>
       <div class="footer-copiryte">
-        <div class="copiryte">© 2021 Truvox International </div>
+        <div class="copiryte">© 2021 Truwash Ukraine </div>
         <div class="social">
           <a href="https://www.instagram.com/truvox_ukraine/" target="_blanck"><i class="fab fa-instagram"></i></a>
           <a href="#"><i class="fab fa-facebook-square"></i></a>
@@ -488,7 +473,7 @@
 
     <!-- Popups -->
     <div class="popups">
-      <div id="popup" class="popup popup-1">
+      <div id="popup-1" class="popup popup-1">
         <div class="popup-body">
           <div class="popup-content">
             <a href="" class="popup-close close-popup"><i class="fas fa-times"></i></a>
@@ -497,46 +482,46 @@
               <div class="item-product__label">Новинка</div>
             </div>
             <div class="popup-title">
-              <h5 class="item-product__title">Multiwash<sup><small>TM</small></sup>II 240/340</h5>
+              <h3 class="item-product__title product-title__popup">Multiwash<sup><small>TM</small></sup>II 240/340</h3>
             </div>
             <div class="popup-text">
               <div class="popup-slider__block">
-                <!-- <div class="popup-slider"> -->
+                
                 <div class="popup-slider__container swiper-container">
                     <div class="popup-slider__wrapper swiper-wrapper">
                       <div class="popup-slider__slide swiper-slide">
                         <div class="popup-slide__img">
-                          <img src="/truvox/img/products/MW240-340/1.png" alt="">
+                          <img src="/img/products/MW240-340/1.png" alt="">
                         </div>
                       </div>
                       <div class="popup-slider__slide swiper-slide">
                         <div class="popup-slide__img">
-                          <img src="/truvox/img/products/MW240-340/2.jpg" alt="">
+                          <img src="/img/products/MW240-340/2.jpg" alt="">
                         </div>
                       </div>
                       <div class="popup-slider__slide swiper-slide">
                         <div class="popup-slide__img">
-                          <img src="/truvox/img/products/MW240-340/3.png" alt="">
+                          <img src="/img/products/MW240-340/3.png" alt="">
                         </div>
                       </div>
                       <div class="popup-slider__slide swiper-slide">
                         <div class="popup-slide__img">
-                          <img src="/truvox/img/products/MW240-340/4.png" alt="">
+                          <img src="/img/products/MW240-340/4.png" alt="">
                         </div>
                       </div>
                     </div>
                 </div>
                 <div class="popup-slider__nav slider-nav">
-                  <div class="slider-nav__item" tabindex="0"><img src="/truvox/img/products/MW240-340/1.png" alt=""></div>
-                  <div class="slider-nav__item" tabindex="0"><img src="/truvox/img/products/MW240-340/2.jpg" alt=""></div>
-                  <div class="slider-nav__item" tabindex="0"><img src="/truvox/img/products/MW240-340/3.png" alt=""></div>
-                  <div class="slider-nav__item" tabindex="0"><img src="/truvox/img/products/MW240-340/4.png" alt=""></div>
+                  <div class="slider-nav__item"><img src="/img/products/MW240-340/1.png" alt=""></div>
+                  <div class="slider-nav__item"><img src="/img/products/MW240-340/2.jpg" alt=""></div>
+                  <div class="slider-nav__item"><img src="/img/products/MW240-340/3.png" alt=""></div>
+                  <div class="slider-nav__item"><img src="/img/products/MW240-340/4.png" alt=""></div>
                 </div>
-              <!-- </div> --></div>
+              </div>
                 
               <div class="popup-text__main">
                 <div class="popup-orders">
-                  <h3 class="order-title">Зробити замовлення</h3>
+                  <h2 class="order-title">Зробити замовлення</h2>
                   <form type="text" class="popup-orders__form">
                     <input type="text" class="popup-orders__name" placeholder="Ваше Ім'я">
                     <input type="phone" class="popup-orders__phone" placeholder="Тел: +38(___) ___-__-__">
@@ -556,6 +541,7 @@
                       <tr>
                         <th colspan="2" class="first">Модель</th> <th>Multiwash II 240</th> <th>Multiwash II 340</th>
                       </tr>
+                    </thead>
                       <tr>
                         <td class="first">Напруга змінного струму (~) / Частота</td> <td>В/Гц</td> <td>230/50</td> <td>230/50</td>
                       </tr>
@@ -592,9 +578,242 @@
                       <tr>
                         <td class="first">Гарантія</td> <td colspan="3">12 місяців</td>
                       </tr>
+                  </table>
+
+                </div>
+              </div>  
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="popup-2" class="popup popup-2">
+        <div class="popup-body">
+          <div class="popup-content">
+            <a href="" class="popup-close close-popup"><i class="fas fa-times"></i></a>
+            <div class="action-product__existance existance-product">в наявності <i class="fas fa-check"></i></div>
+            <div class="item-product__labels">
+              <div class="item-product__label">Новинка</div>
+            </div>
+            <div class="popup-title">
+              <h3 class="item-product__title product-title__popup">Multiwash<sup><small>TM</small></sup>II 240/340/440-PUMP</h3>
+            </div>
+            <div class="popup-text">
+              <div class="popup-slider__block">
+                <div class="popup-slider__container swiper-container">
+                    <div class="popup-slider__wrapper swiper-wrapper">
+                      <div class="popup-slider__slide swiper-slide">
+                        <div class="popup-slide__img">
+                          <img src="/img/products/MW240-340/1.png" alt="">
+                        </div>
+                      </div>
+                      <div class="popup-slider__slide swiper-slide">
+                        <div class="popup-slide__img">
+                          <img src="/img/products/MW240-340/2.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="popup-slider__slide swiper-slide">
+                        <div class="popup-slide__img">
+                          <img src="/img/products/MW240-340/3.png" alt="">
+                        </div>
+                      </div>
+                      <div class="popup-slider__slide swiper-slide">
+                        <div class="popup-slide__img">
+                          <img src="/img/products/MW240-340/4.png" alt="">
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="popup-slider__nav slider-nav">
+                  <div class="slider-nav__item"><img src="/img/products/MW240-340/1.png" alt=""></div>
+                  <div class="slider-nav__item"><img src="/img/products/MW240-340/2.jpg" alt=""></div>
+                  <div class="slider-nav__item"><img src="/img/products/MW240-340/3.png" alt=""></div>
+                  <div class="slider-nav__item"><img src="/img/products/MW240-340/4.png" alt=""></div>
+                </div>
+              </div>
+                
+              <div class="popup-text__main">
+                <div class="popup-orders">
+                  <h2 class="order-title">Зробити замовлення</h2>
+                  <form type="text" class="popup-orders__form">
+                    <input type="text" class="popup-orders__name" placeholder="Ваше Ім'я">
+                    <input type="phone" class="popup-orders__phone" placeholder="Тел: +38(___) ___-__-__">
+                  </form>
+                  <p class="conf">Натискаючи кнопку "Відправити", ви даєте згоду на обробку ваших персональних данних</p>
+                  <button type="submit" class="form-popup__btn">Відправити</button>
+                </div>
+                <div class="popup-text__specification">
+                  <span class="popup-text__description"><strong>Multiwash</strong> - це багатофункціональна підлогомиюча машина, яка демонструє ідеальні результати на будь-яких видах підлог як твердих, так і м'яких.<br>
+                  У <strong>Multiwash 240/340/440-PUMP</strong> подача розчину на підлогу здійснюється за рахунок вбудованої помпи.<br>
+                  Щітки, обертаючись контро-ротаційно (назустріч один одному), очищають підлогу і направляють використаний брудний розчин в бак. У машині немає вакуумного мотора, що полегшує конструкцію і робить її догловечной. Передня щітка робить велику частину роботи - чистить і сушить. Задня щітка завершує процес чищення і збирає з підлоги воду, що залишилася. Скребок збирає воду з барабана і відправляє її в бак для брудної води. Тепер підлогу чистий і сухий.
+                  </span>
+                  
+                  <table class="specification-table">
+                    <caption><p class="specification-title">Характеристики:</p></caption>
+                    <thead>
+                      <tr>
+                        <th colspan="2" class="first">Модель</th> <th>Multiwash II 240-PUMP</th> <th>Multiwash II 340-PUMP</th> <th>Multiwash II 440-PUMP</th>
+                      </tr>
                     </thead>
-                    <tbody></tbody>
-                    </tbody>
+                      <tr>
+                        <td class="first">Напруга змінного струму (~) / Частота</td> <td>В/Гц</td> <td>230/50</td> <td>230/50</td> <td>230/50</td>
+                      </tr>
+                      <tr>
+                        <td class="first">Потужність двигуна</td> <td>Вт</td> <td>400+26</td> <td>600+26</td> <td>1000+26</td>
+                      </tr>
+                      <tr>
+                        <td class="first">Показник продуктивності</td> <td>м<sup>2</sup>/г</td> <td>650</td> <td>930</td> <td>1150</td>
+                      </tr>
+                      <tr>
+                        <td class="first">Ємність бака</td> <td>л</td> <td>3</td> <td>4</td> <td>4</td>
+                      </tr>
+                      <tr>
+                        <td class="first">Ширина щітки</td> <td>см</td> <td>24</td> <td>34</td> <td>44</td>
+                      </tr>
+                      <tr>
+                        <td class="first">Швидкість обертання щітки</td> <td>об/хв</td> <td>650</td> <td>650</td> <td>650</td>
+                      </tr>
+                      <tr>
+                        <td class="first">Тиск щісти</td> <td>г/см<sup>2</sup></td> <td>250</td> <td>250</td> <td>250</td>
+                      </tr>
+                      <tr>
+                        <td class="first">Рівень звукового тиску</td> <td>дБ</td> <td>69</td> <td>69</td> <td>71</td>
+                      </tr>
+                      <tr>
+                        <td class="first">Розміри (Д x Ш x В)</td> <td>см</td> <td>37.8 x 34 x 111.8</td> <td>37.8 x 44 x 111.8</td> <td>37.8 x 54 x 111.8</td>
+                      </tr>
+                      <tr>
+                        <td class="first">Вага</td> <td>кг</td> <td>20</td> <td>25</td> <td>28</td>
+                      </tr>
+                      <tr>
+                        <td class="first">Довжина кабелю</td> <td>м</td> <td>12</td> <td>12</td> <td>12</td>
+                      </tr>
+                      <tr>
+                        <td class="first">Гарантія</td> <td colspan="4">12 місяців</td>
+                      </tr>
+                  </table>
+
+                </div>
+              </div>  
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="popup-3" class="popup popup-3">
+        <div class="popup-body">
+          <div class="popup-content">
+            <a href="" class="popup-close close-popup"><i class="fas fa-times"></i></a>
+            <div class="action-product__existance existance-product">в наявності <i class="fas fa-check"></i></div>
+            <div class="item-product__labels">
+              <div class="item-product__label">Новинка</div>
+            </div>
+            <div class="popup-title">
+              <h3 class="item-product__title product-title__popup">Multiwash<sup><small>TM</small></sup>II 340-PUMP-Battery</h3>
+            </div>
+            <div class="popup-text">
+              <div class="popup-slider__block">
+                <div class="popup-slider__container swiper-container">
+                    <div class="popup-slider__wrapper swiper-wrapper">
+                      <div class="popup-slider__slide swiper-slide">
+                        <div class="popup-slide__img">
+                          <img src="/img/products/MW340-pump-battery/1.png" alt="">
+                        </div>
+                      </div>
+                      <div class="popup-slider__slide swiper-slide">
+                        <div class="popup-slide__img">
+                          <img src="/img/products/MW340-pump-battery/2.png" alt="">
+                        </div>
+                      </div>
+                      <div class="popup-slider__slide swiper-slide">
+                        <div class="popup-slide__img">
+                          <img src="/img/products/MW340-pump-battery/3.png" alt="">
+                        </div>
+                      </div>
+                      <div class="popup-slider__slide swiper-slide">
+                        <div class="popup-slide__img">
+                          <img src="/img/products/MW340-pump-battery/4.png" alt="">
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="popup-slider__nav slider-nav">
+                  <div class="slider-nav__item"><img src="/img/products/MW340-pump-battery/1.png" alt=""></div>
+                  <div class="slider-nav__item"><img src="/img/products/MW340-pump-battery/2.png" alt=""></div>
+                  <div class="slider-nav__item"><img src="/img/products/MW340-pump-battery/3.png" alt=""></div>
+                  <div class="slider-nav__item"><img src="/img/products/MW340-pump-battery/4.png" alt=""></div>
+                </div>
+              </div>
+                
+              <div class="popup-text__main">
+                <div class="popup-orders">
+                  <h2 class="order-title">Зробити замовлення</h2>
+                  <form type="text" class="popup-orders__form">
+                    <input type="text" class="popup-orders__name" placeholder="Ваше Ім'я">
+                    <input type="phone" class="popup-orders__phone" placeholder="Тел: +38(___) ___-__-__">
+                  </form>
+                  <p class="conf">Натискаючи кнопку "Відправити", ви даєте згоду на обробку ваших персональних данних</p>
+                  <button type="submit" class="form-popup__btn">Відправити</button>
+                </div>
+                <div class="popup-text__specification">
+                  <span class="popup-text__description"><strong>Truvox International</strong> випустила останнє покоління
+                    машин серії  <strong>Multiwash 340-PUMP-Battery</strong>
+                    - це 50 хвилин безперервної роботи акумулятора,
+                    система швидкої зміни акумуляторів, зовнішнє
+                    зарядний пристрій плюс всі ті ж переваги,
+                    якими володіють провідні моделі.
+                  </span>
+                  
+                  <table class="specification-table">
+                    <caption><p class="specification-title">Характеристики:</p></caption>
+                    <thead>
+                      <tr>
+                        <th colspan="2" class="first">Модель</th> <th>Multiwash II 340-PUMP-Battery</th>
+                      </tr>
+                    </thead>
+                      <tr>
+                        <td class="first">Напруга зарядки змінного струму (~) / Частота</td> <td>В/Гц</td> <td>110-240/50-60</td>
+                      </tr>
+                      <tr>
+                        <td class="first">Напруга акумулятора постійного струму</td> <td>В</td> <td>24</td>
+                      </tr>
+                      <tr>
+                        <td class="first">Ємність акумулятору</td> <td>Аг</td> <td>10</td>
+                      </tr>
+                      <tr>
+                        <td class="first">Потужність двигуна</td> <td>Вт</td> <td>300+26</td>
+                      </tr>
+                      <tr>
+                        <td class="first">Час автономної роботи</td> <td>Хв</td> <td>50</td>
+                      </tr>
+                      <tr>
+                        <td class="first">Час зарядки акумулятора</td> <td>Г</td> <td>5.5</td>
+                      </tr>
+                      <tr>
+                        <td class="first">Показник продуктивності</td> <td>м<sup>2</sup>/г</td> <td>930</td>
+                      </tr>
+                      <tr>
+                        <td class="first">Ємність бака</td> <td>л</td> <td>4</td>
+                      </tr>
+                      <tr>
+                        <td class="first">Ширина щітки</td> <td>см</td> <td>34</td>
+                      </tr>
+                      <tr>
+                        <td class="first">Швидкість обертання щітки</td> <td>об/хв</td> <td>400</td>
+                      </tr>
+                      <tr>
+                        <td class="first">Тиск щісти</td> <td>г/см<sup>2</sup></td> <td>250</td>
+                      </tr>
+                      <tr>
+                        <td class="first">Рівень звукового тиску</td> <td>дБ</td> <td>66</td>
+                      </tr>
+                      <tr>
+                        <td class="first">Розміри (Д x Ш x В)</td> <td>см</td> <td>38 x 44 x 112</td>
+                      </tr>
+                      <tr>
+                        <td class="first">Вага</td> <td>кг</td> <td>22</td>
+                      </tr>
+                      <tr>
+                        <td class="first">Гарантія</td> <td colspan="2">12 місяців</td>
+                      </tr>
                   </table>
 
                 </div>
@@ -604,14 +823,56 @@
         </div>
       </div>
     </div>
+
+    <!-- Modal -->
+    <div id="popup" class="popup modal">
+      <div class="modal__body">
+        <div class="popup-content modal__content">
+          <a href="" class="modal__close close-popup"><i class="fas fa-times"></i></a>
+          <form class="modal-callback__form" method="POST" id="form" name="form" action="">
+            <div class="modal-form__title">Залиште свій номер телефону і ми Вам передзвонимо</div>
+            <div class="modal-form__body">
+              <div class="modal-form__phone">
+                <input type="text" id="user_name" name="user_name" placeholder="Ваше Имя" class="modal-input-name"/>
+                <input type="phone" id="phone" name="phone" placeholder="Тел.: +38 (___) ___-__-__" class="modal-phone-number phone" required/>
+              </div>
+              <button id="submitButton" type="submit" class="modal-form__btn">
+                Відправити
+              </button>
+              <!-- <script type="text/javascript">
+                document.getElementById('submitButton').addEventListener('click', function() {
+                  fbq('track', 'Lead');
+                },false);
+              </script> -->
+            </div>
+            <div class="modal-form__note">
+              Натискаючи кнопку "Відправити", ви даєте згоду на обробку ваших персональних данних
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-success popup" id="popup-success">
+      <div class="modal__body">
+        <div class="modal__content popup-content">
+          <a href="" class="modal__close close-popup"><i class="fas fa-times"></i></a>
+          <div class="modal-success__text">
+            <strong>Ми отримали вашу заявку!</strong><br><br>
+            <p>Наші спеціалісти зв'яжуться з Вами найближчим часом.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Modal -->
+
     <!-- /Popups -->
 
   </div>
 
   
   
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script src="/truvox/js/popups.js"></script>
+  
 </body>
 </html>
 
