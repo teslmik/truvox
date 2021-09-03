@@ -316,7 +316,7 @@ function openGoods(event) {
   if (product) {
     popups.textContent = '';
 
-    getData(`./json/${product.dataset.products}`).then(function (data) {
+    getData(`/truvox/json/${product.dataset.products}`).then(function (data) {
       data.forEach(createCardGoods);
     })
   };
@@ -324,7 +324,7 @@ function openGoods(event) {
 }
 
 function init() {
-  getData('./json/products.json').then(function (data) {
+  getData('/truvox/json/products.json').then(function (data) {
     data.forEach(createCardProducts);
   });
 
