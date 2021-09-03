@@ -1,0 +1,15 @@
+[
+  {
+    "id": "popup-1",
+    "title": "Multiwash<sup><small>TM</small></sup>II 240/340",
+    "label_stock": "під замовлення <i class='far fa-dot-circle'></i>",
+    "label_order": "",
+    "label_new": "",
+    "swiperImage1": "MW240-340/1.png",
+    "swiperImage2": "MW240-340/2.png",
+    "swiperImage3": "MW240-340/3.png",
+    "swiperImage4": "MW240-340/4.png",
+    "description": "<strong>Multiwash</strong> - це багатофункціональна підлогомиюча машина, яка демонструє ідеальні результати на будь-яких видах підлог як твердих, так і м'яких.<br>У <strong>Multiwash 240 і 340</strong> розчин подається на щітку.<br>Щітки, обертаючись контро-ротаційно (назустріч один одному), очищають підлогу і направляють використаний брудний розчин в бак. У машині немає вакуумного мотора, що полегшує конструкцію і робить її догловечной. Передня щітка робить велику частину роботи - чистить і сушить. Задня щітка завершує процес чищення і збирає з підлоги воду, що залишилася. Скребок збирає воду з барабана і відправляє її в бак для брудної води. Тепер підлогу чистий і сухий.",
+    "specificationTable": "<thead><tr><th colspan='2' class='first'>Модель</th> <th>Multiwash II 240</th> <th>Multiwash II 340</th></tr></thead><tr><td class='first'>Напруга змінного струму (~) / Частота</td> <td>В/Гц</td> <td>230/50</td> <td>230/50</td></tr><tr><td class='first'>Потужність двигуна</td> <td>Вт</td> <td>400</td> <td>600</td></tr><tr><td class='first'>Показник продуктивності</td> <td>м<sup>2</sup>/г</td> <td>650</td> <td>930</td></tr><tr><td class='first'>Ємність бака</td> <td>л</td> <td>1.2</td> <td>1.7</td></tr><tr><td class='first'>Ширина щітки</td> <td>см</td> <td>24</td> <td>34</td></tr><tr><td class='first'>Швидкість обертання щітки</td> <td>об/хв</td> <td>650</td> <td>650</td></tr><tr><td class='first'>Тиск щісти</td> <td>г/см<sup>2</sup></td> <td>250</td> <td>250</td></tr><tr><td class='first'>Рівень звукового тиску</td> <td>дБ</td> <td>68</td> <td>69</td></tr><tr><td class='first'>Розміри (Д x Ш x В)</td> <td>см</td> <td>37.8 x 34 x 111.18</td> <td>37.8 x 44 x 111.8</td></tr><tr><td class='first'>Вага</td> <td>кг</td> <td>20</td> <td>23</td></tr><tr><td class='first'>Довжина кабелю</td> <td>м</td> <td>12</td> <td>12</td></tr><tr><td class='first'>Гарантія</td> <td colspan='3'>12 місяців</td></tr>"
+  }
+]

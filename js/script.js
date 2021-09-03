@@ -40,11 +40,6 @@ if (document.querySelector('.feedback-slider__container')) {
     direction: 'horizontal',
     loop: true,
 
-    // navigation: {
-    //   nextEl: '.feedback-swiper-button-next',
-    //   prevEl: '.feedback-swiper-button-prev',
-    // },
-
     slidesPerView: 1,
 
     spaceBetween: 50,

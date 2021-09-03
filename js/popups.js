@@ -1,11 +1,6 @@
 // ------------------------Modal-------------------------
-const popupLinks = document.querySelectorAll('.popup-link');
-const body = document.querySelector('body');
-const lockPadding = document.querySelectorAll('.lock-padding');
-
-let unlock = true;
-
-const timeout = 700;
+const popupLinks = document.querySelectorAll('.button-popup');
+const modalSuccess = document.querySelector('.modal-success');
 
 if (popupLinks.length > 0) {
   for (let index = 0; index < popupLinks.length; index++) {
@@ -83,13 +78,13 @@ function bodyUnlock() {
         const el = lockPadding[index];
           el.style.paddingRight = '0px';
           setTimeout(function () {
-            // el.style.transition = '';
+            el.style.transition = '';
           }, timeout);
       }
     }
     body.style.paddingRight = '0px';
     body.classList.remove('_lock');
-  });
+  }, timeout);
 
   unlock = false;
   setTimeout(function () {
@@ -137,7 +132,7 @@ $(document).ready(function () {
       url: "./php/telegram.php",
       data: $(this).serialize(),
     }).done(function () {
-      $(".modal").removeClass("open");
+      $(".popup").removeClass("open");
       $(".modal-success").addClass("open");
       $(this).find("input").val("");
       $("#form").trigger("reset");
@@ -148,49 +143,13 @@ $(document).ready(function () {
 
 // Закрыть попап «спасибо»
 
-$(document).mouseup(function (e) {
-  // по клику вне попапа
-  var popup = $(".modal__body");
-  if (e.target != popup[0] && popup.has(e.target).length === 0) {
-    $(".modal-success").removeClass("open");
-    $("body").removeClass("_lock");
-    $("body").removeAttr("style");
+modalSuccess.addEventListener('click', function (e) {
+  if (!e.target.closest('.popup-content')) {
+    popupClose(e.target.closest('.popup'));
   }
 });
 
-  //----------------------Slider Popups---------------------
-if (document.querySelector('.popup-slider__container')) {
-  
-  const mySwiper = new Swiper('.popup-slider__container', {
-    // Optional parameters
-    direction: 'horizontal',
-    loop: true,
-    spaceBetween: 100,
 
-    slidesPerView: 1,
-
-    effect: 'fade',
-    fadeEffect: {
-      crossFade: true
-    },
-
-  });
-
-
-  // ---------------------------Slider Nav-------------------------
-  const sliderNavItems = document.querySelectorAll('.slider-nav__item');
-
-  sliderNavItems.forEach((el, index) => {
-    el.setAttribute('data-index', index);
-
-    el.addEventListener('click', (e) => {
-      const index = parseInt(e.currentTarget.dataset.index);
-
-      mySwiper.slideTo(index);
-    });
-  });
-
-}
 
 // ----------------------Masks-------------------
 window.addEventListener("DOMContentLoaded", function() {

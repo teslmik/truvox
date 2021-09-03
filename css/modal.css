@@ -89,7 +89,7 @@ a.politika1:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 25px;
+  margin-bottom: 0px;
 }
 
 .modal-success__text {
@@ -219,6 +219,11 @@ a.politika1:hover {
 
   .modal-form__btn {
     width: auto;
+  }
+
+  .modal__close {
+    right: 0;
+    top: -55px;
   }
 }
 

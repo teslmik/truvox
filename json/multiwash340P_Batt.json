@@ -1,0 +1,15 @@
+[
+  {
+    "id": "popup-3",
+    "title": "Multiwash<sup><small>TM</small></sup>II <br>340-PUMP-Battery",
+    "label_stock": "під замовлення <i class='far fa-dot-circle'></i>",
+    "label_order": "",
+    "label_new": "<div class='item-product__label'>Новинка</div>",
+    "swiperImage1": "MW340-pump-battery/1.png",
+    "swiperImage2": "MW340-pump-battery/2.png",
+    "swiperImage3": "MW340-pump-battery/3.png",
+    "swiperImage4": "MW340-pump-battery/4.png",
+    "description": "<strong>Truvox International</strong> випустила останнє покоління машин серії  <strong>Multiwash 340-PUMP-Battery</strong> - це 50 хвилин безперервної роботи акумулятора, система швидкої зміни акумуляторів, зовнішнє зарядний пристрій плюс всі ті ж переваги, якими володіють провідні моделі.",
+    "specificationTable": "<thead><tr><th colspan='2' class='first'>Модель</th> <th>Multiwash II 340-PUMP-Battery</th></tr></thead><tr><td class='first'>Напруга зарядки змінного струму (~) / Частота</td><td>В/Гц</td><td>110-240/50-60</td></tr><tr><td class='first'>Напруга акумулятора постійного струму</td> <td>В</td> <td>24</td></tr><tr>  <td class='first'>Ємність акумулятору</td> <td>Аг</td> <td>10</td></tr><tr>  <td class='first'>Потужність двигуна</td> <td>Вт</td> <td>300+26</td></tr><tr>  <td class='first'>Час автономної роботи</td> <td>Хв</td> <td>50</td></tr><tr>  <td class='first'>Час зарядки акумулятора</td> <td>Г</td> <td>5.5</td></tr><tr>  <td class='first'>Показник продуктивності</td> <td>м<sup>2</sup>/г</td> <td>930</td></tr><tr>  <td class='first'>Ємність бака</td> <td>л</td> <td>4</td></tr><tr>  <td class='first'>Ширина щітки</td> <td>см</td> <td>34</td></tr><tr>  <td class='first'>Швидкість обертання щітки</td> <td>об/хв</td> <td>400</td></tr><tr>  <td class='first'>Тиск щісти</td> <td>г/см<sup>2</sup></td> <td>250</td></tr><tr>  <td class='first'>Рівень звукового тиску</td> <td>дБ</td> <td>66</td></tr><tr>  <td class='first'>Розміри (Д x Ш x В)</td> <td>см</td> <td>38 x 44 x 112</td></tr><tr>  <td class='first'>Вага</td> <td>кг</td> <td>22</td></tr><tr>  <td class='first'>Гарантія</td> <td colspan='2'>12 місяців</td></tr>"
+  }
+]

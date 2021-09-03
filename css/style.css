@@ -96,7 +96,7 @@ section {
 }
 
 .logo {
-  width: 216px;
+  width: 150px;
   height: 54px;
   margin-left: 40px;
   background: url(../img/logo_white-transparent.png) no-repeat left center;
@@ -334,6 +334,7 @@ strong {
   flex-direction: column;
   position: relative;
   box-shadow: 0 3px 10px rgb(0 0 0 / 10%), 2px 2px 2px #edeef2 inset;
+  cursor: pointer;
 }
 
 .item-product__labels {
@@ -353,7 +354,18 @@ strong {
   left: 8px;
   text-transform: lowercase;
   color: #7b787a;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 300;
+  z-index: -1;
+}
+
+.in-order {
+  color: #28c3d4;
+  z-index: 0;
+}
+
+.fa-dot-circle {
+  font-size: 10px;
 }
 
 .existance-product {
@@ -437,7 +449,7 @@ strong {
     align-items: center;
     background-color: #f2f2f2;
     padding: 15px;
-    z-index: 2;
+    z-index: 3;
     outline: 4px solid #f2f2f2;
     width: 100%;
     box-sizing: border-box;
@@ -484,7 +496,7 @@ strong {
 }
 
 .actions-product__text {
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
   line-height: 150%;
 }
 
@@ -644,7 +656,7 @@ strong {
 }
 
 .contacts-footer>a:hover {
-  color: #28c3d4;
+  color: var(--main-color-light);
   transition: all ease 0.3s;
 }
 
@@ -685,7 +697,7 @@ strong {
 
 .fab:hover,
 .fas:hover {
-  color: #28c3d4;
+  color: var(--main-color-light);
   transition: all ease 0.3s;
 }
 
@@ -791,7 +803,7 @@ strong {
   }
 
   .logo {
-    width: 150px;
+    width: 110px;
     height: 37.5px;
   }
 
@@ -827,7 +839,7 @@ strong {
 
   .logo {
     margin-left: 20px;
-    max-width: 120px;
+    max-width: 90px;
     height: 30px;
   }
 
@@ -996,7 +1008,7 @@ strong {
     left: -100%;
     width: 100%;
     height: 100%;
-    background-color: rgb(0, 161, 177, 0.9);
+    background-color: rgb(36, 145, 60, 0.9);
     padding: 80px 30px 30px 30px;
     transition: left 0.3s ease 0s;
     overflow: auto;
@@ -1188,7 +1200,7 @@ strong {
   }
 
   .popup-body {
-    padding: 92px 10px 10px;
+    padding: 92px 20px 20px;
   }
 
   .popup-content {
@@ -1210,7 +1222,7 @@ strong {
   }
 
   .specification-table th {
-    padding: 5px 10px;
+    padding: 5px 5px;
   }
 
   .specification-table td {
