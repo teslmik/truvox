@@ -127,7 +127,7 @@ function createCardProducts(products) {
         ${labelNew}<!-- <div class='item-product__label'>Новинка</div> -->
       </div>
       <div class="item-product__image">
-        <img src="/img/products/${image}" alt="${title}">
+        <img src="/truvox/img/products/${image}" alt="${title}">
       </div>
       <div class="item-product__body">
         <div class="item-product__content">
@@ -174,31 +174,31 @@ function createCardGoods(goods) {
                 <div class="popup-slider__wrapper swiper-wrapper">
                   <div class="popup-slider__slide swiper-slide">
                     <div class="popup-slide__img">
-                      <img src="/img/products/${swiperImage1}" alt="">
+                      <img src="/truvox/img/products/${swiperImage1}" alt="">
                     </div>
                   </div>
                   <div class="popup-slider__slide swiper-slide">
                     <div class="popup-slide__img">
-                      <img src="/img/products/${swiperImage2}" alt="">
+                      <img src="/truvox/img/products/${swiperImage2}" alt="">
                     </div>
                   </div>
                   <div class="popup-slider__slide swiper-slide">
                     <div class="popup-slide__img">
-                      <img src="/img/products/${swiperImage3}" alt="">
+                      <img src="/truvox/img/products/${swiperImage3}" alt="">
                     </div>
                   </div>
                   <div class="popup-slider__slide swiper-slide">
                     <div class="popup-slide__img">
-                      <img src="/img/products/${swiperImage4}" alt="">
+                      <img src="/truvox/img/products/${swiperImage4}" alt="">
                     </div>
                   </div>
                 </div>
             </div>
             <div class="popup-slider__nav slider-nav">
-              <div class="slider-nav__item"><img src="/img/products/${swiperImage1}" alt=""></div>
-              <div class="slider-nav__item"><img src="/img/products/${swiperImage2}" alt=""></div>
-              <div class="slider-nav__item"><img src="/img/products/${swiperImage3}" alt=""></div>
-              <div class="slider-nav__item"><img src="/img/products/${swiperImage4}" alt=""></div>
+              <div class="slider-nav__item"><img src="/truvox/img/products/${swiperImage1}" alt=""></div>
+              <div class="slider-nav__item"><img src="/truvox/img/products/${swiperImage2}" alt=""></div>
+              <div class="slider-nav__item"><img src="/truvox/img/products/${swiperImage3}" alt=""></div>
+              <div class="slider-nav__item"><img src="/truvox/img/products/${swiperImage4}" alt=""></div>
             </div>
           </div>
             
