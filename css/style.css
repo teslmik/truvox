@@ -69,6 +69,7 @@ section {
   transition: .3s all;
   z-index: 50;
   box-sizing:border-box;
+  Permissions-Policy: interest-cohort=();
 }
 
 @media (min-width: 769px) {
