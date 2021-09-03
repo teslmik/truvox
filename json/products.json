@@ -1,0 +1,75 @@
+  [
+    { 
+      "title": "Multiwash<sup><small>TM</small></sup>II 240/340",
+      "label_stock": "",
+      "label_order": "під замовлення <i class='far fa-dot-circle'></i>",
+      "label_new": "",
+      "image": "MW340.png",
+      "action_list": "<li>Потужність двигуна 400/600&nbsp;Вт </li><li>Ємність бака для розчину 1.2/1.7&nbsp;л </li><li>Показник продуктивності 650/930&nbsp;м<sup>2</sup>/г</li><li>Ширина щітки 24/34&nbsp;см</li><li>Гаратнія 12&nbsp;місяців</li>",
+      "product": "multiwash240_340.json"
+    },
+    {
+      "title": "Multiwash<sup><small>TM</small></sup>II <br>240/340/440-PUMP",
+      "label_stock": "в наявності <i class='fas fa-check'></i>",
+      "label_order": "",
+      "label_new": "",
+      "image": "MW440-PUMP.png",
+      "action_list": "<li>Потужність двигуна 400/600/1000&nbsp;Вт </li><li>Ємність бака для розчину 3/4&nbsp;л </li><li>Показник продуктивності 650/930/1150&nbsp;м<sup>2</sup>/г</li><li>Ширина щітки 24/34/44&nbsp;см</li><li>Гаратнія 12&nbsp;місяців</li>",
+      "product": "multiwash240_340_440P.json"
+    },
+    {
+      "title": "Multiwash<sup><small>TM</small></sup>II <br>340-PUMP-Battery",
+      "label_stock": "",
+      "label_order": "під замовлення <i class='far fa-dot-circle'></i>",
+      "label_new": "<div class='item-product__label'>Новинка</div>",
+      "image": "MW340-PUMP-battery.png",
+      "action_list": "<li>Потужність двигуна 300&nbsp;Вт </li><li>Час автономної роботи 50&nbsp;хв.</li><li>Час повної зарядки 5.5&nbsp;г</li><li>Ємність бака для розчину 4&nbsp;л </li><li>Показник продуктивності 930&nbsp;м<sup>2</sup>/г</li><li>Ширина щітки 34&nbsp;см</li><li>Гаратнія 12&nbsp;місяців</li>",
+      "product": "multiwash340P_Batt.json"
+    },
+    {
+      "title": "ORBIS<sup class='reg'>&reg;</sup> 200/400/Duo",
+      "label_stock": "",
+      "label_order": "під замовлення <i class='far fa-dot-circle'></i>",
+      "label_new": "",
+      "image": "Orbis-200.png",
+      "action_list": "<li>Потужність двигуна 1100&nbsp;Вт </li><li>Показник продуктивності 560&nbsp;м<sup>2</sup>/г</li><li>Швидкість обертання щітки 380&nbsp;об/хв</li><li>Діаметр щітки 50&nbsp;см</li><li>Гаратнія 24&nbsp;місяці</li>",
+      "product": "orbis.json"
+    },
+    {
+      "title": "ORBIS<sup class='reg'>&reg;</sup> ECO 200/400/Duo",
+      "label_stock": "",
+      "label_order": "під замовлення <i class='far fa-dot-circle'></i>",
+      "label_new": "<div class='item-product__label'>Новинка</div>",
+      "image": "Truvox_Orbis_Eco.png",
+      "action_list": "<li>Потужність двигуна 1100&nbsp;Вт </li><li>Показник продуктивності 475&nbsp;м<sup>2</sup>/г</li><li>Швидкість обертання щітки 380&nbsp;об/хв</li><li>Діаметр щітки 43&nbsp;см</li><li>Гаратнія 24&nbsp;місяці</li>",
+      "product": "orbis_eco.json"
+    },
+    {
+      "title": "ORBIS<sup class='reg'>&reg;</sup> UHS 1500 FH",
+      "label_stock": "",
+      "label_order": "під замовлення <i class='far fa-dot-circle'></i>",
+      "label_new": "",
+      "image": "ORBIS UHS 1500 FH.png",
+      "action_list": "<li>Потужність двигуна 1100&nbsp;Вт </li><li>Показник продуктивності до 1000&nbsp;м<sup>2</sup>/г</li><li>Швидкість обертання щітки 1500&nbsp;об/хв</li><li>Діаметр щітки 50&nbsp;см</li><li>Гаратнія 12&nbsp;місяців</li>",
+      "product": "orbis_uhs1500.json"
+    },
+    {
+      "title": "ORBIS<sup class='reg'>&reg;</sup> UHS CORDLESS BURNISHER",
+      "label_stock": "",
+      "label_order": "під замовлення <i class='far fa-dot-circle'></i>",
+      "label_new": "",
+      "image": "ORBIS UHS CORDLESS BURNISHER.png",
+      "action_list": "<li>Потужність двигуна 300&nbsp;Вт </li><li>Час автономної роботи 50&nbsp;хв.</li><li>Час повної зарядки 5.5&nbsp;г</li><li>Ємність бака для розчину 4&nbsp;л </li><li>Показник продуктивності 930&nbsp;м<sup>2</sup>/г</li><li>Ширина щітки 34&nbsp;см</li><li>Гаратнія 12&nbsp;місяців</li>",
+      "product": "orbis_uhs_cordless.json"
+    },
+    {
+      "title": "ORBIS<sup class='reg'>&reg;</sup> Orbital 1500",
+      "label_stock": "",
+      "label_order": "під замовлення <i class='far fa-dot-circle'></i>",
+      "label_new": "<div class='item-product__label'>Новинка</div>",
+      "image": "ORBIS Orbital 1500.png",
+      "action_list": "<li>Потужність двигуна 1100&nbsp;Вт </li><li>Швидкість обертання щітки 1490&nbsp;об/хв</li><li>Ємність бака для розчину 5&nbsp;л</li><li>Діаметр щітки 43&nbsp;см</li><li>Гаратнія 12&nbsp;місяців</li>",
+      "product": "orbis_orbital1500.json"
+    }
+
+  ]

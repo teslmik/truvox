@@ -1,0 +1,15 @@
+[
+  {
+    "id": "popup-8",
+    "title":  "ORBIS<sup class='reg'>&reg;</sup> Orbital 1500",
+    "label_stock": "",
+    "label_order": "під замовлення <i class='far fa-dot-circle'></i>",
+    "label_new": "<div class='item-product__label'>Новинка</div>",
+    "swiperImage1": "orbis_orbital1500/1.png",
+    "swiperImage2": "orbis_orbital1500/2.png",
+    "swiperImage3": "orbis_orbital1500/3.png",
+    "swiperImage4": "orbis_orbital1500/4.png",
+    "description": "<strong>ORBIS<sup class='reg'>&reg;</sup> Orbital 1500</strong> об'єднує орбітальні і обертальні рухи в одне, забезпечуючи постійну вібрацію, яка підвищує ефективність очищення.<br><br> <strong>Orbital 1500</strong> підходить для використання на різних підлогах, включаючи килими, тверді підлоги, вініл і камінь.",
+    "specificationTable": "<thead><tr><th colspan='2' class='first'>Модель</th> <th>ORBIS<sup class='reg'>&reg;</sup> Orbital 1500</th></tr></thead><tr>  <td class='first'>Напруга змінного струму (~) / Частота</td> <td>В/Гц</td> <td>230/50</td></tr><tr>  <td class='first'>Потужність двигуна</td> <td>Вт</td> <td>1100</td></tr><tr>  <td class='first'>Ємність бака</td> <td>л</td> <td>5</td></tr><tr>  <td class='first'>Швидкість обертання щітки</td> <td>об/хв</td> <td>1490</td></tr><tr>  <td class='first'>Діаметр щітки</td> <td>см</td> <td>43</td></tr><tr>  <td class='first'>Рівень звукового тиску</td> <td>дБ</td> <td>70</td></tr><tr>  <td class='first'>Розміри (Д x Ш x В)</td> <td>см</td> <td>66 x 46 x 125</td></tr><tr>  <td class='first'>Вага</td> <td>кг</td> <td>50.5</td></tr><tr>  <td class='first'>Довжина кабеля</td> <td>м</td> <td>15</td></tr><tr>  <td class='first'>Гарантія</td> <td colspan='2'>12 місяців</td></tr>"
+  }
+]

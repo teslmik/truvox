@@ -1,0 +1,15 @@
+[
+  {
+    "id": "popup-5",
+    "title":  "ORBIS<sup class='reg'>&reg;</sup> ECO 200/400/Duo",
+    "label_stock": "",
+    "label_order": "під замовлення <i class='far fa-dot-circle'></i>",
+    "label_new": "<div class='item-product__label'>Новинка</div>",
+    "swiperImage1": "ORBIS-ECO/1.png",
+    "swiperImage2": "ORBIS-ECO/2.png",
+    "swiperImage3": "ORBIS-ECO/3.png",
+    "swiperImage4": "ORBIS-ECO/4.png",
+    "description": "<strong>Truvox</strong> з гордістю представляє нову серію роторів <strong>Orbis eco</strong>. Призначені для повного задоволення всіх потреб покупця. Всі моделі <strong>Orbis eco</strong> поставляються в зібраному вигляді, включаючи падотримач, тому Ви можете відразу приступити до роботи.<br><br> Дані ротори зручні в експлуатації, демонструють неперевершену продуктивність, ідеально підходять для чищення та полірування твердих підлог, додатковий бак для розчину призначений для вологого чищення. Полегшує і значно спрощує обслуговування будь-якого типу підлоги, тому серія <strong>Orbis eco</strong> чудово вписується в супермаркети, медичні та освітні установи.",
+    "specificationTable": "<thead><tr><th colspan='2' class='first'>Модель</th> <th>ORBIS<sup class='reg'>&reg;</sup> ECO 200</th> <th>ORBIS<sup class='reg'>&reg;</sup> ECO 400</th> <th>ORBIS<sup class='reg'>&reg;</sup> ECO Duo</th></tr></thead><tr>  <td class='first'>Напруга змінного струму (~) / Частота</td> <td>В/Гц</td> <td>230/50</td> <td>230/50</td> <td>230/50</td></tr><tr>  <td class='first'>Потужність двигуна</td> <td>Вт</td> <td>1100</td> <td>1100</td> <td>1100</td></tr><tr>  <td class='first'>Показник продуктивності</td> <td>м<sup>2</sup>/г</td> <td>475</td> <td>475</td> <td>475</td></tr><tr>  <td class='first'>Швидкість обертання щітки</td> <td>об/хв</td> <td>190</td> <td>380</td>> <td>154/309</td></tr><tr>  <td class='first'>Тиск щітки</td> <td>г/см<sup>2</sup></td> <td>22</td> <td>22</td> <td>27</td></tr><tr>  <td class='first'>Діаметр щітки</td> <td>см</td> <td>43</td> <td>43</td> <td>43</td></tr><tr>  <td class='first'>Рівень звукового тиску</td> <td>дБ</td> <td>53</td> <td>53</td> <td>53</td></tr><tr>  <td class='first'>Розміри (Д x Ш x В)</td> <td>см</td> <td>62 x 43 x 121</td> <td>62 x 43 x 121</td> <td>62 x 43 x 121</td></tr><tr>  <td class='first'>Вага</td> <td>кг</td> <td>32</td> <td>32</td> <td>40</td></tr><tr>  <td class='first'>Довжина кабеля</td> <td>м</td> <td>15</td> <td>15</td> <td>15</td></tr><tr>  <td class='first'>Гарантія</td> <td colspan='4'>24 місяці</td></tr>"
+  }
+]
